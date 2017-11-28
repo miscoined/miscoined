@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/*** Landing page styles */
+
+.landing {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw;
+  margin: auto;
+}
+
+.landing h1 {
+  font: 10vw "Bukhari Script", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.landing nav {
+  text-align: left;
+  font: 15px Cabin, sans-serif;
+}
+
+.landing nav a {
+  font-size: 1.2em;
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  border-top: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.landing nav a i {
+  float: left;
+}
