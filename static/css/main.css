@@ -2,10 +2,16 @@
 
 html, body {
   height: 100%;
+  background: #2e282a;
 }
 
 body {
   margin: 0;
+}
+
+.swatches {
+  font-family: "Bukhari Script", cursive;
+  font-feature-settings: "swsh";
 }
 
 /*** Landing page styles */
@@ -24,23 +30,35 @@ body {
 .landing h1 {
   font: 10vw "Bukhari Script", cursive;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 4vw;
+  line-height: 1;
+  font-feature-settings: "ss02";
+  color: #cd5334;
+  text-shadow: 2px 2px #171616;
 }
 
 .landing nav {
   text-align: left;
-  font: 15px Cabin, sans-serif;
+  font: 15px Cabin, CabinFallback, sans-serif;
+  color: #544f50;
 }
 
 .landing nav a {
   font-size: 1.2em;
   display: block;
+  color: #cd5334;
   text-decoration: none;
-  color: black;
-  margin: 5px;
-  border-top: 1px solid black;
-  padding: 5px 10px;
+  padding: 10px 10px;
   text-align: center;
+  border-bottom: 1px solid #171616;
+}
+
+.landing nav a:hover {
+  background-color: #171616;
+}
+
+.landing nav i {
+  color: #cd5334;
 }
 
 .landing nav a i {
